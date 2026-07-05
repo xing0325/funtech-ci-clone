@@ -1,0 +1,155 @@
+[
+  {
+    "idx": 0,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -710,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 1,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -571,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 2,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -432,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 3,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -293,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 4,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -154,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 5,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": -15,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 6,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 124,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 7,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 263,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 8,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 402,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 9,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 541,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 10,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 680,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 11,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 819,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 12,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 958,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 13,
+    "w": 24,
+    "h": 24,
+    "x": 100,
+    "y": 1097,
+    "viewBox": "0 0 24 24",
+    "cls": "size-6 -rotate-90"
+  },
+  {
+    "idx": 18,
+    "w": 363,
+    "h": 363,
+    "x": 631,
+    "y": 191,
+    "viewBox": "0 0 380 380",
+    "cls": "logo-detail-svg-key-transition absolute "
+  },
+  {
+    "idx": 19,
+    "w": 363,
+    "h": 363,
+    "x": 232,
+    "y": 251,
+    "viewBox": "0 0 380 380",
+    "cls": "logo-detail-svg-key-transition absolute "
+  },
+  {
+    "idx": 20,
+    "w": 363,
+    "h": 363,
+    "x": 1030,
+    "y": 106,
+    "viewBox": "0 0 380 380",
+    "cls": "logo-detail-svg-key-transition absolute "
+  }
+]

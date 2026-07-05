@@ -1,0 +1,171 @@
+{
+  "viewport": {
+    "w": 1440,
+    "h": 900
+  },
+  "container": {
+    "rect": {
+      "x": 208,
+      "y": 82,
+      "w": 1209,
+      "h": 680
+    },
+    "cls": "@container-[size] relative w-[min(100cqw,calc(100cqh*16/9))] aspect-vi",
+    "containerType": "size"
+  },
+  "title": {
+    "rect": null,
+    "cls": null,
+    "cs": null
+  },
+  "badge": {
+    "rect": null,
+    "cls": null,
+    "cs": null
+  },
+  "cardBox0chain": [
+    {
+      "cls": "[object SVGAnimatedString]",
+      "rect": {
+        "x": 631,
+        "y": 191,
+        "w": 363,
+        "h": 363
+      },
+      "containerType": "normal",
+      "border": "0px"
+    },
+    {
+      "cls": "relative size-full overflow-hidden bg-background",
+      "rect": {
+        "x": 631,
+        "y": 191,
+        "w": 363,
+        "h": 363
+      },
+      "containerType": "normal",
+      "border": "0px"
+    },
+    {
+      "cls": "w-full aspect-square bg-background relative",
+      "rect": {
+        "x": 631,
+        "y": 191,
+        "w": 363,
+        "h": 363
+      },
+      "containerType": "normal",
+      "border": "0px"
+    },
+    {
+      "cls": "absolute z-0 w-[30cqw] top-[9cqw] right-0 left-0 m-auto flex flex-col ",
+      "rect": {
+        "x": 631,
+        "y": 191,
+        "w": 363,
+        "h": 508
+      },
+      "containerType": "normal",
+      "border": "0px"
+    },
+    {
+      "cls": "relative w-full h-full text-foreground",
+      "rect": {
+        "x": 208,
+        "y": 82,
+        "w": 1209,
+        "h": 680
+      },
+      "containerType": "normal",
+      "border": "0px"
+    },
+    {
+      "cls": "relative z-10 h-full w-full",
+      "rect": {
+        "x": 208,
+        "y": 82,
+        "w": 1209,
+        "h": 680
+      },
+      "containerType": "normal",
+      "border": "0px"
+    }
+  ],
+  "cardRects": [
+    {
+      "x": 631,
+      "y": 191,
+      "w": 363,
+      "h": 363
+    },
+    {
+      "x": 232,
+      "y": 251,
+      "w": 363,
+      "h": 363
+    },
+    {
+      "x": 1030,
+      "y": 106,
+      "w": 363,
+      "h": 363
+    }
+  ],
+  "funkun": [],
+  "pills": {
+    "rect": {
+      "x": 1293,
+      "y": 16,
+      "w": 116,
+      "h": 40
+    },
+    "cls": "block w-full origin-center transform-gpu transition transition-base gr",
+    "btns": [
+      {
+        "rect": {
+          "x": 1297,
+          "y": 20,
+          "w": 32,
+          "h": 32
+        },
+        "cls": "group/theme-button relative z-10 flex size-8 cursor-pointer items-cent",
+        "text": "⚡️"
+      },
+      {
+        "rect": {
+          "x": 1335,
+          "y": 20,
+          "w": 32,
+          "h": 32
+        },
+        "cls": "group/theme-button relative z-10 flex size-8 cursor-pointer items-cent",
+        "text": "🏆"
+      },
+      {
+        "rect": {
+          "x": 1373,
+          "y": 20,
+          "w": 32,
+          "h": 32
+        },
+        "cls": "group/theme-button relative z-10 flex size-8 cursor-pointer items-cent",
+        "text": "🎉"
+      }
+    ]
+  },
+  "menu": {
+    "rect": {
+      "x": 633,
+      "y": 842,
+      "w": 160,
+      "h": 44
+    },
+    "cls": "block w-40"
+  },
+  "bottomRow": {
+    "x": 8,
+    "y": 836,
+    "w": 1409,
+    "h": 56
+  }
+}

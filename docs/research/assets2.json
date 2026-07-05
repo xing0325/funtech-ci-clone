@@ -1,0 +1,358 @@
+{
+  "imgs": [
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/home.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -748,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/brand-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -609,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ci-update.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -470,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/vision-visual.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -331,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/funtech-way.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -192,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/megavolt-creative.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": -53,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/breakers-of-victory.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 86,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/all-for-fun.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 225,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-details.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 364,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-variation.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 503,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/10th-special-item.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 642,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ending-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 781,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/we-are-funtech.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 920,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/fin.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 24,
+        "y": 1059,
+        "w": 176,
+        "h": 99
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/stickers/gif/zyan.gif",
+      "alt": "",
+      "w": 990,
+      "h": 1080,
+      "rect": {
+        "x": 844,
+        "y": 92,
+        "w": 231,
+        "h": 231
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/home.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 61,
+        "y": 87,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/brand-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 395,
+        "y": 87,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ci-update.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 728,
+        "y": 87,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/vision-visual.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 1062,
+        "y": 87,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/funtech-way.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 61,
+        "y": 325,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/megavolt-creative.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 395,
+        "y": 325,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/breakers-of-victory.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 728,
+        "y": 325,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/all-for-fun.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 1062,
+        "y": 325,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-details.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 61,
+        "y": 563,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-variation.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 395,
+        "y": 563,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/10th-special-item.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 728,
+        "y": 563,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ending-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 1062,
+        "y": 563,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/we-are-funtech.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 61,
+        "y": 801,
+        "w": 306,
+        "h": 172
+      }
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/fin.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576,
+      "rect": {
+        "x": 395,
+        "y": 801,
+        "w": 306,
+        "h": 172
+      }
+    }
+  ],
+  "bgs": [
+    "https://ci.funtech.inc/noise-border/fun-v.png",
+    "https://ci.funtech.inc/noise-border/fun-h.png"
+  ],
+  "videos": [],
+  "audios": []
+}

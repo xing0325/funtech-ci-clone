@@ -1,0 +1,391 @@
+{
+  "imgs": [
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/home.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/brand-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ci-update.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/vision-visual.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/funtech-way.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/megavolt-creative.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/breakers-of-victory.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/all-for-fun.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-details.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-variation.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/10th-special-item.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ending-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/we-are-funtech.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/fin.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/stickers/gif/zyan.gif?dpl=dpl_27YsMCxxxrahJ3CBTf1LRaHNCcot",
+      "alt": "",
+      "w": 990,
+      "h": 1080
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/home.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/brand-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ci-update.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/vision-visual.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/funtech-way.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/megavolt-creative.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/breakers-of-victory.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/all-for-fun.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-details.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/logo-variation.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/10th-special-item.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/ending-message.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/we-are-funtech.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "src": "https://ci.funtech.inc/thumbnails/en/fin.webp",
+      "alt": "",
+      "w": 1024,
+      "h": 576
+    }
+  ],
+  "bgs": [
+    "url(\"https://ci.funtech.inc/noise-border/fun-v.png\")",
+    "url(\"https://ci.funtech.inc/noise-border/fun-h.png\")"
+  ],
+  "videos": [],
+  "audios": [],
+  "svgCount": 34,
+  "inlineSvgs": [
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 24,
+      "h": 24,
+      "cls": "size-6 -rotate-90",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "w": 9,
+      "h": 9,
+      "cls": "size-[9px] -rotate-90",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 9,
+      "h": 9,
+      "cls": "size-[9px] -scale-x-100",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 9,
+      "h": 9,
+      "cls": "size-[9px] rotate-90",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 9,
+      "h": 9,
+      "cls": "size-[9px] ",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 362,
+      "h": 362,
+      "cls": "logo-detail-svg-key-transition absolute ",
+      "viewBox": "0 0 380 380"
+    },
+    {
+      "w": 362,
+      "h": 362,
+      "cls": "logo-detail-svg-key-transition absolute ",
+      "viewBox": "0 0 380 380"
+    },
+    {
+      "w": 362,
+      "h": 362,
+      "cls": "logo-detail-svg-key-transition absolute ",
+      "viewBox": "0 0 380 380"
+    },
+    {
+      "w": 13,
+      "h": 13,
+      "cls": "",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 12,
+      "h": 13,
+      "cls": "shrink-0",
+      "viewBox": "0 0 12 13"
+    },
+    {
+      "w": 14,
+      "h": 16,
+      "cls": "h-4 w-3.5 transition-base",
+      "viewBox": "0 0 14 16"
+    },
+    {
+      "w": 13,
+      "h": 13,
+      "cls": "",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 18,
+      "h": 18,
+      "cls": "",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 18,
+      "h": 18,
+      "cls": "",
+      "viewBox": "0 0 13 13"
+    },
+    {
+      "w": 12,
+      "h": 13,
+      "cls": "shrink-0",
+      "viewBox": "0 0 12 13"
+    },
+    {
+      "w": 14,
+      "h": 16,
+      "cls": "h-4 w-3.5 transition-base",
+      "viewBox": "0 0 14 16"
+    },
+    {
+      "w": 9,
+      "h": 9,
+      "cls": "shrink-0",
+      "viewBox": "0 0 9 9"
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cls": "shrink-0",
+      "viewBox": "0 0 11 11"
+    },
+    {
+      "w": 0,
+      "h": 0,
+      "cls": "pointer-events-none fixed left-0 top-0 h",
+      "viewBox": ""
+    },
+    {
+      "w": 48,
+      "h": 48,
+      "cls": "size-12",
+      "viewBox": "0 0 28 28"
+    },
+    {
+      "w": 48,
+      "h": 48,
+      "cls": "size-12",
+      "viewBox": "0 0 28 28"
+    }
+  ]
+}

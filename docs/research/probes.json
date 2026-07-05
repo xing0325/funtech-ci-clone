@@ -1,0 +1,16 @@
+{
+  "body": {
+    "text": "01HOME02BRAND MESSAGE03CI UPDATE04VISION",
+    "fontFamily": "proxima-nova, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(242, 238, 235)",
+    "backgroundColor": "rgb(28, 29, 30)"
+  },
+  "bigTitle": null,
+  "cardTitle": null,
+  "cardLabel": null,
+  "bodyCopy": null
+}
