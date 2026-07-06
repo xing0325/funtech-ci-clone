@@ -14,7 +14,12 @@ function Balloons() {
   useFrame((state) => {
     if (!ref.current) return;
     const t = state.clock.elapsedTime;
-    ref.current.position.y = Math.sin(t * 0.8) * 0.15; // idle bob
+    ref.current.position.y = Math.sin(t * 0.8) * 0.12; // idle float
+    // damped mouse-follow tilt (the scene leans toward the cursor)
+    const targetX = state.pointer.y * 0.25;
+    const targetY = state.pointer.x * 0.4;
+    ref.current.rotation.x += (targetX - ref.current.rotation.x) * 0.04;
+    ref.current.rotation.y += (targetY - ref.current.rotation.y) * 0.04;
   });
   return (
     <Center>
@@ -49,10 +54,8 @@ export function BalloonScene() {
       <OrbitControls
         enablePan={false}
         enableZoom={false}
-        autoRotate
-        autoRotateSpeed={0.9}
         enableDamping
-        dampingFactor={0.06}
+        dampingFactor={0.08}
         rotateSpeed={0.9}
       />
     </Canvas>
