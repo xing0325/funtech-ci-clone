@@ -1,16 +1,22 @@
+"use client";
+
+import dynamic from "next/dynamic";
 import type { Slide } from "@/data/deck";
 import { asset } from "@/lib/asset";
 
+// r3f Canvas is client-only + heavy → load it lazily, keep it out of SSR/prerender
+const BalloonScene = dynamic(() => import("@/components/deck/BalloonScene").then((m) => m.BalloonScene), { ssr: false });
+
 /**
- * HOME — the title card. The words FUNTECH / BRAND / IDENTITY are scattered around the
- * central black balloon-logo render (the real pre-rendered scene), with the revision date
- * bottom-right.
+ * HOME — the title card. FUNTECH / BRAND / IDENTITY scattered around the interactive 3D
+ * balloon-logo (real .glb, drag to spin). The pre-rendered PNG sits behind as the fallback
+ * while the model streams in.
  */
 export function HomeSlide({ slide }: { slide: Slide }) {
   const [l1, l2, l3] = (slide.headline || "").split("\n");
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* central balloon-logo hero */}
+      {/* static fallback (shows while the model loads) */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={asset("/logo-pattern/logo-pattern-01.png")}
@@ -19,7 +25,12 @@ export function HomeSlide({ slide }: { slide: Slide }) {
         draggable={false}
       />
 
-      {/* scattered wordmark */}
+      {/* live interactive 3D hero */}
+      <div className="absolute left-1/2 top-1/2 z-[1] h-[86cqh] w-[70cqw] -translate-x-1/2 -translate-y-1/2">
+        <BalloonScene />
+      </div>
+
+      {/* scattered wordmark (never blocks the drag) */}
       <h1 className="pointer-events-none absolute inset-0 z-10 font-key font-extrabold uppercase leading-none tracking-[-0.01em] text-foreground">
         <span className="text-noise-edge absolute left-[2.5cqw] top-[3cqh]" style={{ fontSize: "9cqw" }}>{l1}</span>
         <span className="text-noise-edge absolute right-[3cqw] top-[26cqh]" style={{ fontSize: "9cqw" }}>{l2}</span>
@@ -27,7 +38,7 @@ export function HomeSlide({ slide }: { slide: Slide }) {
       </h1>
 
       {slide.body?.[0] && (
-        <p className="absolute bottom-[4cqh] right-[3cqw] z-10 font-key uppercase tracking-[0.28em] text-foreground/70" style={{ fontSize: "1.3cqw" }}>
+        <p className="pointer-events-none absolute bottom-[4cqh] right-[3cqw] z-10 font-key uppercase tracking-[0.28em] text-foreground/70" style={{ fontSize: "1.3cqw" }}>
           {slide.body[0]}
         </p>
       )}
