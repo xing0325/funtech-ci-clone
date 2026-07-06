@@ -28,8 +28,8 @@ export function HomeSlide({ slide }: { slide: Slide }) {
         draggable={false}
       />
 
-      {/* live interactive 3D hero */}
-      <div className="absolute left-1/2 top-1/2 z-[1] h-[92cqh] w-[80cqw] -translate-x-1/2 -translate-y-1/2">
+      {/* live interactive 3D hero — fills the stage so the balloons read large */}
+      <div className="absolute inset-0 z-[1]">
         <BalloonScene onReady={() => setReady(true)} />
       </div>
 
