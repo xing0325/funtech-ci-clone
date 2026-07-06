@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { SLIDES } from "@/data/deck";
 
 interface DeckState {
@@ -16,6 +16,13 @@ export function DeckProvider({ children, initial = 8 }: { children: React.ReactN
   const go = useCallback((delta: number) => {
     setIndex((i) => (i + delta + SLIDES.length) % SLIDES.length);
   }, []);
+
+  // Each slide drives the site-wide accent: the WAY slides recolor everything
+  // (06 volt / 07 breaker / 08 fun); all others fall back to fun. Matches the original.
+  useEffect(() => {
+    document.documentElement.dataset.theme = SLIDES[index].theme ?? "fun";
+  }, [index]);
+
   return <Ctx.Provider value={{ index, setIndex, go }}>{children}</Ctx.Provider>;
 }
 
