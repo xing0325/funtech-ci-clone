@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { useState } from "react";
 import type { Slide } from "@/data/deck";
 import { asset } from "@/lib/asset";
 
@@ -9,25 +10,27 @@ const BalloonScene = dynamic(() => import("@/components/deck/BalloonScene").then
 
 /**
  * HOME — the title card. FUNTECH / BRAND / IDENTITY scattered around the interactive 3D
- * balloon-logo (real .glb, drag to spin). The pre-rendered PNG sits behind as the fallback
- * while the model streams in.
+ * balloon-logo (real .glb, drag to spin, mouse-follow tilt). The pre-rendered PNG shows
+ * only while the model streams in, then hides so there's no static/3D mismatch.
  */
 export function HomeSlide({ slide }: { slide: Slide }) {
+  const [ready, setReady] = useState(false);
   const [l1, l2, l3] = (slide.headline || "").split("\n");
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* static fallback (shows while the model loads) */}
+      {/* loading-only fallback — fades out once the model is ready */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={asset("/logo-pattern/logo-pattern-01.png")}
         alt=""
-        className="absolute left-1/2 top-1/2 z-0 w-[64cqw] -translate-x-1/2 -translate-y-1/2"
+        className="absolute left-1/2 top-1/2 z-0 w-[62cqw] -translate-x-1/2 -translate-y-1/2 transition-opacity duration-700"
+        style={{ opacity: ready ? 0 : 1 }}
         draggable={false}
       />
 
       {/* live interactive 3D hero */}
-      <div className="absolute left-1/2 top-1/2 z-[1] h-[86cqh] w-[70cqw] -translate-x-1/2 -translate-y-1/2">
-        <BalloonScene />
+      <div className="absolute left-1/2 top-1/2 z-[1] h-[92cqh] w-[80cqw] -translate-x-1/2 -translate-y-1/2">
+        <BalloonScene onReady={() => setReady(true)} />
       </div>
 
       {/* scattered wordmark (never blocks the drag) */}
