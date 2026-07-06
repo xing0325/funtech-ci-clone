@@ -9,14 +9,16 @@ export function VisionVisualSlide({ slide }: { slide: Slide }) {
   const theme = useTheme();
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={asset(`/vision-visual/vision-visual-${theme}.png`)}
-        alt=""
-        className="absolute right-0 top-0 h-full w-[58cqw] object-cover object-center"
-        draggable={false}
-      />
-      <div className="absolute inset-y-0 left-0 w-[62cqw] bg-gradient-to-r from-background via-background/85 to-transparent" />
+      {/* key visual panel, right */}
+      <div className="absolute right-[2.5cqw] top-1/2 flex aspect-square h-[76cqh] -translate-y-1/2 items-center justify-center overflow-hidden rounded-[0.6cqw] border-[0.18cqw] border-key/40">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={asset(`/vision-visual/vision-visual-${theme}.png`)}
+          alt=""
+          className="h-[80%] w-[80%] object-contain"
+          draggable={false}
+        />
+      </div>
       <div className="absolute inset-y-0 left-0 flex w-[52cqw] flex-col justify-center px-[3cqw]">
         <h1
           className="text-noise-edge font-extrabold leading-[0.95] tracking-[-0.01em] text-foreground"

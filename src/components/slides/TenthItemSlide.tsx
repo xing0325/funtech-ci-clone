@@ -38,12 +38,17 @@ export function TenthItemSlide({ slide }: { slide: Slide }) {
         />
       ))}
 
-      <div className="absolute left-[2.5cqw] top-[4cqh] max-w-[30cqw]">
-        <p className="font-key uppercase tracking-[0.12em] text-key" style={{ fontSize: "1.6cqw" }}>{slide.kicker}</p>
-        <h1 className="text-noise-edge font-extrabold leading-[0.9] text-foreground" style={{ fontSize: "6.5cqw" }}>{slide.headline}</h1>
+      <div className="absolute left-1/2 top-1/2 z-20 flex w-[40cqw] -translate-x-1/2 -translate-y-1/2 flex-col items-center text-center">
+        <h1 className="text-noise-edge font-extrabold leading-[0.85] text-foreground" style={{ fontSize: "7cqw" }}>
+          <span className="text-key">{slide.kicker}</span> {slide.headline}
+        </h1>
         {slide.body?.[0] && (
-          <p className="mt-[2cqh] text-foreground/90" style={{ fontSize: "1.15cqw", lineHeight: 1.65 }}>{slide.body[0]}</p>
+          <p className="mt-[2.4cqh] max-w-[34cqw] text-foreground/90" style={{ fontSize: "1.15cqw", lineHeight: 1.65 }}>{slide.body[0]}</p>
         )}
+        <button className="mt-[3cqh] inline-flex items-center gap-[0.8cqw] rounded-full bg-key px-[2.4cqw] py-[1.2cqh] font-key font-bold text-background transition hover:scale-95" style={{ fontSize: "1.3cqw" }}>
+          Get the Items!
+          <svg viewBox="0 0 24 24" className="size-[1.4cqw]" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7M9 7h8v8" /></svg>
+        </button>
       </div>
     </div>
   );
