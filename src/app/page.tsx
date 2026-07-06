@@ -4,10 +4,12 @@ import { BottomBar } from "@/components/BottomBar";
 import { IntroOverlay } from "@/components/intro/IntroOverlay";
 import { DeckProvider } from "@/components/deck/DeckContext";
 import { Stage } from "@/components/deck/Stage";
+import { CustomCursor } from "@/components/deck/CustomCursor";
 
 export default function Page() {
   return (
     <main className="fixed inset-0 flex overflow-hidden bg-background text-foreground">
+      <CustomCursor />
       <IntroOverlay />
 
       <DeckProvider initial={8}>

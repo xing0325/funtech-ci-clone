@@ -53,6 +53,9 @@ body {
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 
+/* custom pen cursor hides the native one (desktop only, toggled by CustomCursor) */
+.cursor-hidden, .cursor-hidden * { cursor: none !important; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
 }
