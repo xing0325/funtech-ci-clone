@@ -8,6 +8,7 @@ import { LogoVariationSlide } from "./LogoVariationSlide";
 import { TenthItemSlide } from "./TenthItemSlide";
 import { FinSlide } from "./FinSlide";
 import { WaySlide } from "./WaySlide";
+import { WeAreSlide } from "./WeAreSlide";
 
 /** Picks the right layout component for a slide's kind. */
 export function SlideView({ slide }: { slide: Slide }) {
@@ -28,8 +29,10 @@ export function SlideView({ slide }: { slide: Slide }) {
       return <TenthItemSlide slide={slide} />;
     case "fin":
       return <FinSlide slide={slide} />;
+    case "weAre":
+      return <WeAreSlide slide={slide} />;
     default:
-      // statement, way, wayIndex fallback, ending, weAre
+      // statement, ending
       return <TextSlide slide={slide} />;
   }
 }

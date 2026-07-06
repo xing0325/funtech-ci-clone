@@ -2,20 +2,18 @@
 
 import type { Slide } from "@/data/deck";
 import { asset } from "@/lib/asset";
-import { useTheme } from "@/hooks/useTheme";
 
-/** VISION VISUAL — the theme-matched hero key visual (fun / volt / breaker) with copy on the left. */
+/** VISION VISUAL — the "team of superstar creators" balloon-logo key visual with copy on the left. */
 export function VisionVisualSlide({ slide }: { slide: Slide }) {
-  const theme = useTheme();
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* key visual panel, right */}
-      <div className="absolute right-[2.5cqw] top-1/2 flex aspect-square h-[76cqh] -translate-y-1/2 items-center justify-center overflow-hidden rounded-[0.6cqw] border-[0.18cqw] border-key/40">
+      {/* key visual panel, right — the rainbow balloon-logo render */}
+      <div className="absolute right-[2.5cqw] top-1/2 flex aspect-square h-[76cqh] -translate-y-1/2 items-center justify-center overflow-hidden rounded-[0.6cqw] border-[0.18cqw] border-key/40 bg-black/20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={asset(`/vision-visual/vision-visual-${theme}.png`)}
+          src={asset("/logo-pattern/logo-pattern-00.png")}
           alt=""
-          className="h-[80%] w-[80%] object-contain"
+          className="w-[92%] object-contain"
           draggable={false}
         />
       </div>
