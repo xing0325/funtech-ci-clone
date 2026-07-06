@@ -1,0 +1,27 @@
+{
+  "text": [
+    "A Team of\nSuperstar-Creators",
+    "Each individual shines in their own way,\ncoming together to create overwhelming, electrifying creativity\nthat sends a jolt straight to the heart.\nOur CI expresses FunTech as a playful container\nwhere our Superstar-Creators gather, collide, and spark."
+  ],
+  "images": [
+    "/vision-visual/vision-visual-volt.png",
+    "/vision-visual/vision-visual-breaker.png",
+    "/vision-visual/vision-visual-fun.png",
+    "/stickers/gif/baribari.gif"
+  ],
+  "classSamples": [
+    "zen_kaku_gothic_antique_df32cb81-module__AIn3iG__variable antialiased h-dvh overflow-hidden",
+    "h-full overflow-hidden",
+    "flex min-h-screen items-center justify-center bg-amber-600",
+    "relative w-full h-full text-foreground",
+    "pointer-events-none absolute left-0 top-0 z-0 grid h-full w-[calc(100cqw-98cqh)] place-items-center overflow-visible",
+    "vision-visual-theme-illustration relative block aspect-[1080/1116] w-[45cqw] overflow-visible",
+    "vision-visual-theme-illustration-image vision-visual-theme-illustration-image-volt object-contain transition-opacity transition-base",
+    "vision-visual-theme-illustration-image vision-visual-theme-illustration-image-breaker object-contain transition-opacity transition-base",
+    "vision-visual-theme-illustration-image vision-visual-theme-illustration-image-fun object-contain transition-opacity transition-base",
+    "absolute z-1 top-[6cqw] left-[2cqw] text-[7cqw] font-black leading-[1.15] text-noise-edge",
+    "text-[1.2cqw] font-medium leading-loose absolute z-1 bottom-[5cqw] left-[2cqw]",
+    "absolute z-0 h-[96cqh] aspect-square top-0 bottom-0 right-[2cqh] m-auto",
+    "w-full h-full bg-background"
+  ]
+}

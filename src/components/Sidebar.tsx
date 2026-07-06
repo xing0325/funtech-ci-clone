@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { SECTIONS, ACTIVE_INDEX } from "@/data/logoDetails";
+import { SLIDES } from "@/data/deck";
 import { asset } from "@/lib/asset";
+import { useDeck } from "@/components/deck/DeckContext";
 
 function Chevron({ className = "" }: { className?: string }) {
   return (
@@ -13,31 +14,32 @@ function Chevron({ className = "" }: { className?: string }) {
 }
 
 export function Sidebar() {
-  const activeRef = useRef<HTMLAnchorElement>(null);
+  const { index, setIndex, go } = useDeck();
+  const activeRef = useRef<HTMLButtonElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    activeRef.current?.scrollIntoView({ block: "center" });
-  }, []);
+    activeRef.current?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [index]);
+
+  const scrollList = (dir: number) => scrollRef.current?.scrollBy({ top: dir * 220, behavior: "smooth" });
 
   return (
     <aside className="relative z-20 hidden h-full w-[184px] shrink-0 flex-col py-3 pl-6 pr-2 lg:flex">
-      {/* top scroll control */}
-      <button className="mb-2 ml-auto flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Scroll up">
+      <button onClick={() => scrollList(-1)} className="mb-2 ml-auto flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Scroll up">
         <Chevron className="size-4" />
       </button>
 
       <div ref={scrollRef} className="no-scrollbar flex-1 overflow-y-auto">
         <div className="flex flex-col gap-6">
-          {SECTIONS.map((s, i) => {
-            const active = i === ACTIVE_INDEX;
+          {SLIDES.map((s, i) => {
+            const active = i === index;
             return (
-              <a
+              <button
                 key={s.n}
                 ref={active ? activeRef : undefined}
-                href={s.slug}
-                draggable={false}
-                className="group block w-full"
+                onClick={() => setIndex(i)}
+                className="group block w-full text-left"
                 style={{ opacity: active ? 1 : 0.32, transition: "opacity 300ms linear" }}
               >
                 <span className="block w-full origin-center transform-gpu transition duration-300 group-hover:scale-95">
@@ -52,18 +54,17 @@ export function Sidebar() {
                     </p>
                   </span>
                 </span>
-              </a>
+              </button>
             );
           })}
         </div>
       </div>
 
-      {/* bottom scroll controls */}
       <div className="mt-2 ml-auto flex gap-1">
-        <button className="flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Scroll down">
+        <button onClick={() => scrollList(1)} className="flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Scroll down">
           <Chevron className="size-4 rotate-180" />
         </button>
-        <button className="flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Next">
+        <button onClick={() => go(1)} className="flex size-8 items-center justify-center rounded-sm border border-foreground/20 text-foreground/70 transition hover:text-foreground" aria-label="Next">
           <Chevron className="size-4 rotate-90" />
         </button>
       </div>

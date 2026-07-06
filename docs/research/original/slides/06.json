@@ -1,0 +1,30 @@
+{
+  "text": [
+    "WAY_01",
+    "Million-Volt",
+    "Creativity",
+    "A powerful Creativity\nas if you get an electric shock to the heart.\nBy riding the accelerating evolution of technology,\nwe continue to break through moments of “creative saturation”\nand deliver million-volt-level craftsmanship to the world."
+  ],
+  "images": [],
+  "classSamples": [
+    "zen_kaku_gothic_antique_df32cb81-module__AIn3iG__variable antialiased h-dvh overflow-hidden",
+    "h-full overflow-hidden",
+    "flex min-h-screen items-center justify-center bg-amber-600",
+    "relative w-full h-full text-foreground",
+    "pointer-events-none absolute left-0 top-0 z-0 grid h-full w-[calc(100cqw-98cqh)] place-items-center overflow-visible",
+    "noise-illustration h-full w-[100cqh] max-w-none overflow-visible opacity-40",
+    "noise-illustration-viewport",
+    "noise-illustration-strip",
+    "noise-illustration-frame noise-illustration-frame-0",
+    "noise-illustration-frame noise-illustration-frame-1",
+    "noise-illustration-frame noise-illustration-frame-2",
+    "absolute left-[2cqw] top-1/2 z-1 flex -translate-y-1/2 flex-col items-start gap-[2cqw]",
+    "text-[2cqw] font-key relative z-1",
+    "text-[5cqw] font-black leading-none flex flex-col items-start text-key",
+    "bg-background",
+    "inline-block text-noise-edge",
+    "text-[1.2cqw] font-medium leading-loose undefined",
+    "absolute z-0 h-[96cqh] aspect-square top-0 bottom-0 right-[2cqh] m-auto",
+    "w-full h-full bg-background"
+  ]
+}

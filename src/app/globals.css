@@ -43,6 +43,10 @@ body {
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes marquee-x { to { transform: translateX(-50%); } }
 
+/* slide crossfade when the active deck slide changes */
+@keyframes deck-fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.anim-slide-in { animation: deck-fade-in 420ms var(--ease-power3-out) both; }
+
 /* distressed rough edge on display text (SVG turbulence displacement) */
 .text-noise-edge { filter: url(#noise-text-edge-filter); }
 

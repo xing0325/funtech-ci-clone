@@ -1,0 +1,47 @@
+{
+  "text": [
+    "10th",
+    "Item",
+    "To celebrate our 10th anniversary and CI renewal,\nwe created a lively collection of festival-inspired items\nunder the theme “Million Volt Ennichi.”\nThey will be given away through a lottery,\nso be sure to check out the details."
+  ],
+  "images": [
+    "/10th-special-item/items-bg.jpg",
+    "/10th-special-item/items/tag.png",
+    "/10th-special-item/items/bottle.png",
+    "/10th-special-item/items/opener.png",
+    "/10th-special-item/items/ennichi.png",
+    "/10th-special-item/items/cups.png",
+    "/10th-special-item/items/logo-white.png",
+    "/10th-special-item/items/logo-black.png",
+    "/10th-special-item/items/logo-orange.png",
+    "/10th-special-item/items/towel.png",
+    "/10th-special-item/items/logo-sticker.png",
+    "/10th-special-item/items/banana.png",
+    "/10th-special-item/items/plate.png",
+    "/10th-special-item/items/fan.png",
+    "/stickers/gif/guooo.gif",
+    "/stickers/gif/gogogo.gif",
+    "/stickers/gif/gif9.gif",
+    "/stickers/gif/gif4.gif",
+    "/stickers/gif/gif6.gif",
+    "/stickers/gif/gif16.gif",
+    "/stickers/gif/gif11.gif",
+    "/stickers/gif/gif1.gif",
+    "/stickers/gif/gif14.gif"
+  ],
+  "classSamples": [
+    "zen_kaku_gothic_antique_df32cb81-module__AIn3iG__variable antialiased h-dvh overflow-hidden",
+    "h-full overflow-hidden",
+    "flex min-h-screen items-center justify-center bg-amber-600",
+    "relative h-full w-full overflow-hidden bg-background text-foreground",
+    "pointer-events-none absolute inset-0",
+    "select-none object-cover",
+    "pointer-events-none absolute inset-0 shadow-[inset_0_0_6.5cqw_3.2cqw_rgba(28,29,30,0.25)]",
+    "pointer-events-none absolute inset-x-0 top-[13.9cqw] z-[2] flex flex-col items-center",
+    "bg-background px-[0.8cqw] text-[5.2cqw] leading-[1.1] font-bold tracking-normal",
+    "inline-block font-key font-medium text-noise-edge",
+    "inline-block font-ja text-noise-edge",
+    "text-[1.2cqw] font-medium leading-loose mt-[3.85cqw] text-center text-[1.3cqw] tracking-normal font-ja",
+    "mt-[3.85cqw]"
+  ]
+}

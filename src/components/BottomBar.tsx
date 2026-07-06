@@ -1,4 +1,8 @@
+"use client";
+
 import { SoundToggle } from "@/components/sound/SoundToggle";
+import { SLIDES } from "@/data/deck";
+import { useDeck } from "@/components/deck/DeckContext";
 
 const Arrow = ({ dir = "left" }: { dir?: "left" | "right" }) => (
   <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
@@ -6,29 +10,33 @@ const Arrow = ({ dir = "left" }: { dir?: "left" | "right" }) => (
   </svg>
 );
 
-function SideLink({ n, title, slug, dir }: { n: string; title: string; slug: string; dir: "left" | "right" }) {
+function SideLink({ n, title, dir, onClick }: { n: string; title: string; dir: "left" | "right"; onClick: () => void }) {
   const square = (
-    <span className="flex size-11 shrink-0 items-center justify-center rounded bg-key text-background">
+    <span className="flex size-11 shrink-0 items-center justify-center rounded bg-key text-background transition group-hover:brightness-110">
       <Arrow dir={dir} />
     </span>
   );
   return (
-    <a href={slug} className="group flex items-center gap-3">
+    <button onClick={onClick} className="group flex items-center gap-3">
       {dir === "left" && square}
       <span className="hidden font-key text-[15px] leading-none tracking-[0.04em] sm:inline">
         <span className="text-key">{n}.</span> <span className="text-foreground">{title}</span>
       </span>
       {dir === "right" && square}
-    </a>
+    </button>
   );
 }
 
 export function BottomBar() {
+  const { index, go } = useDeck();
+  const prev = SLIDES[(index - 1 + SLIDES.length) % SLIDES.length];
+  const next = SLIDES[(index + 1) % SLIDES.length];
+
   return (
     <div className="absolute inset-x-0 bottom-0 z-30 h-16 px-2">
       <div className="relative flex h-full items-center justify-between">
-        <SideLink n="08" title="ALL FOR FUN" slug="/en/all-for-fun" dir="left" />
-        <SideLink n="10" title="LOGO VARIATION" slug="/en/logo-variation" dir="right" />
+        <SideLink n={prev.n} title={prev.title} dir="left" onClick={() => go(-1)} />
+        <SideLink n={next.n} title={next.title} dir="right" onClick={() => go(1)} />
       </div>
 
       {/* centered control cluster */}
@@ -40,7 +48,7 @@ export function BottomBar() {
           </svg>
         </button>
 
-        <button className="group pointer-events-auto flex h-11 w-40 items-center justify-center gap-2 rounded bg-key text-[15px] font-semibold tracking-[0.05em] text-background transition group-hover:scale-95">
+        <button className="group pointer-events-auto flex h-11 w-40 items-center justify-center gap-2 rounded bg-key text-[15px] font-semibold tracking-[0.05em] text-background transition hover:scale-95">
           MENU
           <span className="inline-flex transition-transform duration-300 group-hover:rotate-90" aria-hidden="true">
             <svg viewBox="0 0 9 9" width="9" height="9" fill="currentColor">

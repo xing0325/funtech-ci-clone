@@ -1,0 +1,42 @@
+{
+  "text": [
+    "A shared language\nfor the next 10 years",
+    "To guide our next decade,\nwe defined a core set of shared values\nthat will shape how FunTech\nthinks, creates, and moves forward.",
+    "WAY_02",
+    "Victory",
+    "Breaker",
+    "WAY_01",
+    "Million-Volt",
+    "Creativity",
+    "WAY_03",
+    "All for Fun"
+  ],
+  "images": [
+    "/stickers/gif/gogogo.gif"
+  ],
+  "classSamples": [
+    "zen_kaku_gothic_antique_df32cb81-module__AIn3iG__variable antialiased h-dvh overflow-hidden",
+    "h-full overflow-hidden",
+    "flex min-h-screen items-center justify-center bg-amber-600",
+    "relative w-full h-full text-foreground",
+    "absolute z-1 top-[6cqw] left-[2cqw] text-[5cqw] font-black leading-[1.15] flex flex-col gap-[1cqw] text-noise-edge",
+    "text-[1.2cqw] font-medium leading-loose absolute z-1 bottom-[5cqw] right-[4cqw]",
+    "absolute z-0 h-[32cqw] aspect-square inset-0 m-auto",
+    "block h-full w-full transition-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-key",
+    "h-full",
+    "flex h-full w-full flex-col items-center justify-center gap-[2cqw] bg-background text-center leading-none text-breaker",
+    "noise-illustration pointer-events-none absolute inset-0 z-0 size-full",
+    "noise-illustration-viewport",
+    "noise-illustration-strip",
+    "noise-illustration-frame noise-illustration-frame-0",
+    "noise-illustration-frame noise-illustration-frame-1",
+    "noise-illustration-frame noise-illustration-frame-2",
+    "relative z-1 font-key text-[2cqw]",
+    "relative z-1 flex flex-col items-center justify-center gap-[0.4cqw] text-[3.5cqw] font-black",
+    "bg-background",
+    "absolute z-0 h-[32cqw] aspect-square left-[1cqw] bottom-[1cqw] m-auto",
+    "flex h-full w-full flex-col items-center justify-center gap-[2cqw] bg-background text-center leading-none text-volt",
+    "absolute z-0 h-[32cqw] aspect-square right-[1cqw] top-[1cqw] m-auto",
+    "flex h-full w-full flex-col items-center justify-center gap-[2cqw] bg-background text-center leading-none text-fun"
+  ]
+}

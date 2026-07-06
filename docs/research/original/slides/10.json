@@ -1,0 +1,13 @@
+{
+  "text": [
+    "Logo Variation"
+  ],
+  "images": [],
+  "classSamples": [
+    "zen_kaku_gothic_antique_df32cb81-module__AIn3iG__variable antialiased h-dvh overflow-hidden",
+    "h-full overflow-hidden",
+    "flex min-h-screen items-center justify-center bg-amber-600",
+    "relative w-full h-full text-foreground",
+    "absolute z-1 top-[6cqw] left-[2cqw] text-[5cqw] font-black leading-[1.15] flex flex-col gap-[1cqw] text-noise-edge"
+  ]
+}

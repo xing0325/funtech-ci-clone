@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Reverse-engineering staging (assets are copied into public/; JS chunks are bulky)
+docs/research/original-assets/
+docs/research/original/js/
