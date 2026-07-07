@@ -6,7 +6,10 @@ import { useGLTF, useTexture, Environment, Lightformer, OrbitControls } from "@r
 import * as THREE from "three";
 import { asset } from "@/lib/asset";
 
-const FILL = 0.92; // fraction of viewport width the word fills
+// world width the word should fill — derived from the fixed camera (z 14, fov 24, 16:9
+// stage): visible width ≈ 10.6, so ~9.6 fills it. Fixed & deterministic — does NOT depend
+// on state.viewport (which measures unreliably inside the container-query stage on load).
+const TARGET_W = 9.6;
 const FLIGHT = 0.8; // click poke impulse
 const L_STIFF = 0.14;
 const L_DAMP = 0.82;
@@ -74,7 +77,7 @@ function Content({ onReady }: { onReady?: () => void }) {
   };
 
   useFrame((state) => {
-    if (fitG.current) fitG.current.scale.setScalar((state.viewport.width * FILL) / rawW.current);
+    if (fitG.current) fitG.current.scale.setScalar(TARGET_W / rawW.current);
     if (floatG.current) floatG.current.position.y = Math.sin(state.clock.elapsedTime * 0.8) * 0.05;
     for (const l of list.current) {
       l.vel.addScaledVector(l.offset, -L_STIFF);
